@@ -1,0 +1,46 @@
+{
+	"name": "Piec silikonowy",
+	"type": "GenericSmelter",
+	"health": 420,
+	"description": "Zmienia naturalny silicon na zwyczajny.",
+	"hasPower": true,
+	"size": 2,
+	"hasLiquids": false,
+	"craftTime": 960,
+	"updateEffect": "smeltsmoke",
+	"itemCapacity": 4096,
+	"consumes": {
+		"items": {
+			"items": [
+				{
+					"item": "natural_silicon",
+					"amount": 4
+				}
+			]
+		},
+		"power": 0.05
+	},
+	"requirements": [
+		{
+			"item": "copper",
+			"amount": 128
+		}
+		{
+			"item": "silicon",
+			"amount": 32
+		}
+		{
+			"item": "lead",
+			"amount": 128
+		}
+
+	],
+	"category": "crafting",
+	"research": {
+        "parent": "shield_module_factory"
+        "requirements": [
+			{"item": "thorium", "amount": 1024}
+		],
+	},
+	"outputItem": {"item": "silicon", "amount": 6}
+}

@@ -1,0 +1,44 @@
+{
+    "type": "ForceProjector",
+    "name": "Ulepszony projektor pola siłowego",
+    "size": 3,
+    "health": 4096,
+    "radius": 600,
+    "phaseRadiusBoost": 100,
+    "phaseUseTime": 350,
+    "breakage": 2147483647,
+    "cooldownNormal": 0,
+    "cooldownLiquid": 0,
+    "cooldownBrokenBase": 0.25,
+    "category": "effect",
+    "requirements": [
+        {
+            "item": "advanced_shield_module",
+            "amount": 32767
+        },
+
+        {
+            "item": "titanium",
+            "amount": 9999
+        },
+
+        {
+            "item": "thorium",
+            "amount": -2112
+        },
+        {
+            "item": "phase-fabric",
+            "amount": 4096
+        }
+
+    ],
+    "consumes": {
+		"power": 16000,
+		"items": {
+			"items": [ {"item": "phase-fabric", "amount": 1} ],
+			"booster": true,
+			"optional": true
+        }
+	},
+    "research": "composite_wall_large"
+}

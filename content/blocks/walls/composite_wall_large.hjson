@@ -1,0 +1,17 @@
+type: Wall
+name: Mieszany mur
+description: wytrzymalsza i droższa alternatywa dla miedzianego muru.
+health: 1768
+size: 2
+requirements: [
+  copper/98
+  lead/48
+]
+category: defense
+research: {
+  parent: composite_wall
+  requirements: [
+    copper/256
+    lead/128
+  ]
+}

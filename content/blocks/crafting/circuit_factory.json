@@ -1,0 +1,59 @@
+{
+	"name": "Fabryka płytek",
+	"type": "GenericSmelter",
+	"health": 420,
+	"description": "Tworzy płytki drukowane...",
+	"hasPower": true,
+	"size": 2,
+	"hasLiquids": false,
+	"craftTime": 480,
+	"updateEffect": "smeltsmoke",
+	"itemCapacity": 32,
+	"consumes": {
+		"items": {
+			"items": [
+				{
+					"item": "copper",
+					"amount": 16
+				}
+				{
+					"item": "natural_silicon",
+					"amount": 32
+				}
+				{
+					"item": "lead",
+					"amount": 16
+				}
+				{
+					"item": "plastanium",
+					"amount": 8
+				}
+
+			]
+		},
+		"power": 0.08
+	},
+	"requirements": [
+
+		{
+			"item": "thorium",
+			"amount": 32
+		}
+		{
+			"item": "plastanium",
+			"amount": 32
+		}
+		{
+			"item": "lead",
+			"amount": 128
+		}
+	],
+	"category": "crafting",
+	"research": {
+        "parent": "tech0"
+        "requirements": [
+			{"item": "thorium", "amount": 512}
+		],
+	},
+	"outputItem": {"item": "basic_circuit", "amount": 1}
+}

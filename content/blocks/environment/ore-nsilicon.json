@@ -1,0 +1,9 @@
+  
+{
+	"name": "Naturalny silikon",
+	"type": "OreBlock",
+	"description": ".",
+	"itemDrop": "natural_silicon",
+	"hardness": "1",
+	"hasShadow": "false"
+}

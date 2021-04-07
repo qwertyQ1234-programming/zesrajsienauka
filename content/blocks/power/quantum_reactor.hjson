@@ -1,0 +1,40 @@
+type: NuclearReactor
+name: "Reaktor kwantowy"
+description: "jak to wypierdoli tracisz save."
+size: 4
+hasPower: true
+hasLiquids: true
+hasItems: true
+itemCapacity: 2
+liquidCapacity: 128
+itemDuration: 128009
+powerProduction: 2048
+heating: 0.50
+smokeThreshold: 0.48
+explosionRadius: 64000
+explosionDamage: 4800
+flashThreshold: 2.00
+coolantPower: 0.9 
+consumes: {
+ liquid: cryofluid/0.20
+  items: {
+   items: [
+    quantum_jar/2
+    ]
+  }
+}
+requirements: [
+  lead/1024
+  plastanium/256
+  surge-alloy/128
+  silicon/128
+  quantum_jar/16
+  quantum_circuit/2
+]
+category: power
+research: {
+  parent: tech0
+  requirements: [
+    silicon/750
+  ]
+}

@@ -1,0 +1,17 @@
+type: Wall
+name: Mały kwantowy mur
+description: ten mur narusza czasoprze349hig EROOR.
+health: -2048
+size: 1
+requirements: [
+  quantum_jar/1
+  surge-alloy/16
+]
+category: defense
+research: {
+  parent: tech0
+  requirements: [
+    copper/64
+    lead/32
+  ]
+}

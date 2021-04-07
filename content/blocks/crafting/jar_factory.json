@@ -1,0 +1,47 @@
+{
+	"name": "Fabryka słoików",
+	"type": "GenericSmelter",
+	"health": 420,
+	"description": "Robimy słoiki :D",
+	"hasPower": true,
+	"size": 2,
+	"hasLiquids": false,
+	"craftTime": 480,
+	"updateEffect": "smeltsmoke",
+	"itemCapacity": 4,
+	"consumes": {
+		"items": {
+			"items": [
+				{
+					"item": "metaglass",
+					"amount": 4
+				}
+				{
+					"item": "copper",
+					"amount": 2
+				}
+
+			]
+		},
+		"power": 0.02
+	},
+	"requirements": [
+
+		{
+			"item": "copper",
+			"amount": 128
+		}
+		{
+			"item": "lead",
+			"amount": 32
+		}
+	],
+	"category": "crafting",
+	"research": {
+        "parent": "tech0"
+        "requirements": [
+			{"item": "thorium", "amount": 512}
+		],
+	},
+	"outputItem": {"item": "empty_jar", "amount": 2}
+}

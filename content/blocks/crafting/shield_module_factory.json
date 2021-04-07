@@ -1,0 +1,42 @@
+{
+	"name": "Fabryka moduło osłonowego",
+	"type": "GenericSmelter",
+	"health": 420,
+	"description": "Potężna maszyna wytwarzająca moduł osłonowy",
+	"hasPower": true,
+	"size": 4,
+	"hasLiquids": false,
+	"craftTime": 480,
+	"updateEffect": "smeltsmoke",
+	"itemCapacity": 4096,
+	"consumes": {
+		"items": {
+			"items": [
+				{
+					"item": "phase-fabric",
+					"amount": 8
+				}
+				{
+					"item": "silicon",
+					"amount": 64
+				}
+				{
+					"item": "thorium",
+					"amount": 128
+				}
+			]
+		},
+		"power": 0.05
+	},
+	"requirements": [
+		{"item": "copper", "amount": 30}
+	],
+	"category": "crafting",
+	"research": {
+        "parent": "tech0"
+        "requirements": [
+			{"item": "thorium", "amount": 512}
+		],
+	},
+	"outputItem": {"item": "shield_module", "amount": 1}
+}

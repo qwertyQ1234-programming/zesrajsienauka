@@ -1,0 +1,59 @@
+{
+	"name": "Fabryka kwantowych płytek",
+	"type": "GenericSmelter",
+	"health": 420,
+	"description": "Tworzy kwantowe płytki drukowane...",
+	"hasPower": true,
+	"size": 2,
+	"hasLiquids": false,
+	"craftTime": 480,
+	"updateEffect": "smeltsmoke",
+	"itemCapacity": 32,
+	"consumes": {
+		"items": {
+			"items": [
+				{
+					"item": "quantum_jar",
+					"amount": 2
+				}
+				{
+					"item": "natural_silicon",
+					"amount": 32
+				}
+				{
+					"item": "basic_circuit",
+					"amount": 6
+				}
+				{
+					"item": "plastanium",
+					"amount": 16
+				}
+
+			]
+		},
+		"power": 0.12
+	},
+	"requirements": [
+
+		{
+			"item": "thorium",
+			"amount": 32
+		}
+		{
+			"item": "plastanium",
+			"amount": 32
+		}
+		{
+			"item": "lead",
+			"amount": 128
+		}
+	],
+	"category": "crafting",
+	"research": {
+        "parent": "tech0"
+        "requirements": [
+			{"item": "thorium", "amount": 512}
+		],
+	},
+	"outputItem": {"item": "quantum_circuit", "amount": 2}
+}

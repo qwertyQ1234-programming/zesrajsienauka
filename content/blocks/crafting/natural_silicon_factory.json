@@ -1,0 +1,44 @@
+{
+	"name": "Fabryka naturalnego siliconu",
+	"type": "GenericSmelter",
+	"health": 420,
+	"description": "zesraj sie to alfa",
+	"hasPower": true,
+	"size": 2,
+	"hasLiquids": false,
+	"craftTime": 64,
+	"updateEffect": "smeltsmoke",
+	"itemCapacity": 32,
+	"consumes": {
+		"items": {
+			"items": [
+				{
+					"item": "silicon",
+					"amount": 16
+				}
+
+
+			]
+		},
+		"power": 0.02
+	},
+	"requirements": [
+
+		{
+			"item": "copper",
+			"amount": 64
+		}
+		{
+			"item": "lead",
+			"amount": 128
+		}
+	],
+	"category": "crafting",
+	"research": {
+        "parent": "tech0"
+        "requirements": [
+			{"item": "thorium", "amount": 512}
+		],
+	},
+	"outputItem": {"item": "natural_silicon", "amount": 8}
+}

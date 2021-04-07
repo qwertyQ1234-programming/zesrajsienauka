@@ -1,0 +1,20 @@
+type: Wall
+name: Kwantowy mur
+description: j*&y$h(*$htn%&hgiuTF
+health: -5096.5
+size: 1
+chanceDeflect: 99
+insulated: true
+absorbLasers: true
+requirements: [
+  quantum_jar/-2
+  surge-alloy/16
+]
+category: defense
+research: {
+  parent: tech0
+  requirements: [
+    copper/64
+    lead/32
+  ]
+}

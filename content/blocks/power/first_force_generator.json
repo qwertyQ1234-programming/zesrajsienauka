@@ -1,0 +1,28 @@
+{
+    "type": "ForceProjector",
+    "name": "Pierwszy projektor pola siłowego [rok 2034] [do działania wymaga ołowiu]",
+    "size": 1,
+    "health": 180,
+    "radius": 0,
+    "phaseRadiusBoost": 60,
+    "phaseUseTime": 350,
+    "breakage": 128,
+    "cooldownNormal": 4,
+    "cooldownLiquid": 2,
+    "cooldownBrokenBase": 0.25,
+    "category": "effect",
+    "requirements": [
+        {"item": "copper", "amount": 128},
+        {"item": "lead", "amount": 64},
+        {"item": "silicon", "amount": 32}
+    ],
+    "consumes": {
+		"power": 1,
+		"items": {
+			"items": [ {"item": "lead", "amount": 1} ],
+			"booster": false,
+			"optional": false
+        }
+	},
+    "research": "composite_wall_large"
+}

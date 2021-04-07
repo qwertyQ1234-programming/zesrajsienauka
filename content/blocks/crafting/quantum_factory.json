@@ -1,0 +1,77 @@
+{
+	"name": "Fabryka kwantów w słoiku",
+	"type": "GenericSmelter",
+	"health": 420,
+	"description": "Potężna maszyna wytwarzająca kwanty w słoiku...",
+	"hasPower": true,
+	"size": 6,
+	"hasLiquids": false,
+	"craftTime": 480,
+	"updateEffect": "smeltsmoke",
+	"itemCapacity": 256,
+	"consumes": {
+		"items": {
+			"items": [
+				{
+					"item": "phase-fabric",
+					"amount": 256
+				}
+				{
+					"item": "silicon",
+					"amount": 256
+				}
+				{
+					"item": "thorium",
+					"amount": 256
+				}
+				{
+					"item": "surge-alloy",
+					"amount": 256
+				}
+				{
+					"item": "plastanium",
+					"amount": 256
+				}
+				{
+					"item": "metaglass",
+					"amount": 256
+				}
+				{
+					"item": "titanium",
+					"amount": 256
+				}
+				{
+					"item": "empty_jar",
+					"amount": 1
+				}
+			]
+		},
+		"power": 0.40
+	},
+	"requirements": [
+		{
+			"item": "surge-alloy",
+			"amount": 512
+		}
+		{
+			"item": "thorium",
+			"amount": 512
+		}
+		{
+			"item": "plastanium",
+			"amount": 1024
+		}
+		{
+			"item": "lead",
+			"amount": 2048
+		}
+	],
+	"category": "crafting",
+	"research": {
+        "parent": "tech0"
+        "requirements": [
+			{"item": "thorium", "amount": 512}
+		],
+	},
+	"outputItem": {"item": "quantum_jar", "amount": 1}
+}

@@ -1,0 +1,7 @@
+name: Bateria torowa
+description: Używana do średniozaawansowanych urządzeniach
+color: 906030
+radioactivity: 2.0
+flammability: 0.2
+explosivness: 0.6
+research: tech0

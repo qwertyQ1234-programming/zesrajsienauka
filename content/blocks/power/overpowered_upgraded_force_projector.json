@@ -1,0 +1,50 @@
+{
+    "type": "ForceProjector",
+    "name": "Przeciążony ulepszony projektor pola siłowego",
+    "size": 3,
+    "health": 1720,
+    "radius": 100,
+    "shieldHealth": 2048,
+    "phaseRadiusBoost": 160,
+    "phaseUseTime": 600,
+    "breakage": 2048,
+    "cooldownNormal": 1.4,
+    "cooldownLiquid": 1.13,
+    "cooldownBrokenBase": 0.25,
+    "category": "effect",
+    "requirements": [
+        {
+            "item": "advanced_shield_module",
+            "amount": 4
+        },
+
+        {
+            "item": "thorium",
+            "amount": 512
+        },
+
+        {
+            "item": "silicon",
+            "amount": 512
+        },
+        {
+            "item": "surge-alloy",
+            "amount": 128
+        }
+
+    ],
+    "consumes": {
+        "power": 0.224,
+        "items": {
+            "items": [
+                {
+                    "item": "shield_module",
+                    "amount": 1
+                }
+            ],
+            "booster": false,
+            "optional": false
+        }
+    },
+    "research": "composite_wall_large"
+}

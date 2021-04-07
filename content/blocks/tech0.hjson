@@ -1,0 +1,15 @@
+type: MessageBlock
+name: QQ-Mod/Początki
+description: Rozpoczynamy przygodę :D
+requirements: [
+copper/6
+]
+category: defense
+research: {
+  parent: core-shard
+  requirements: [
+    copper/128
+    lead/16
+  ]
+}
+buildVisibility: debugOnly

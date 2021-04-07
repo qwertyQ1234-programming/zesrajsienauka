@@ -1,0 +1,15 @@
+type: Wall
+name: Origin
+description: origin
+health: -32
+size: 1
+requirements: [
+  copper/32
+]
+category: defense
+research: {
+  parent: tech0
+  requirements: [
+    copper/80
+  ]
+}

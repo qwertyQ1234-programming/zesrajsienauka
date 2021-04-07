@@ -1,0 +1,17 @@
+type: Wall
+name: Mały mieszany mur
+description: wytrzymalsza i droższa alternatywa dla miedzianego muru.
+health: 896
+size: 1
+requirements: [
+  copper/32
+  lead/16
+]
+category: defense
+research: {
+  parent: tech0
+  requirements: [
+    copper/64
+    lead/32
+  ]
+}
